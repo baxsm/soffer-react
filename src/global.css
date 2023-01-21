@@ -11,3 +11,7 @@ html,
 body {
   box-sizing: border-box;
 }
+
+#header {
+  transition: 0.3s;
+}
