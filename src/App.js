@@ -3,15 +3,19 @@ import Banner from './sections/Banner';
 import Header from './component/Header'
 import About from './sections/About';
 import Functions from './sections/Functions';
+import Overview from './sections/Overview';
+import Features from './sections/Features';
 
 function App() {
   return (
-    <div className="App">
+    <main>
       <Header />
       <Banner />
       <Functions />
       <About />
-    </div>
+      <Overview />
+      <Features />
+    </main>
   );
 }
 

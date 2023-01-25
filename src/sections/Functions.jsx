@@ -39,9 +39,9 @@ function Functions() {
     ]
 
     const styles = {
-        wrapper: 'mx-auto mt-[2rem] py-[4rem] px-[1rem] md:px-[6rem]',
+        wrapper: 'mx-auto mt-[2rem] py-[4rem] px-[1rem] lg:px-[6rem]',
         container: 'grid grid-cols-1 lg:grid-cols-3 gap-[1.5rem] text-center place-items-center',
-        listContainer: 'flex flex-col justify-center place-items-center gap-[1rem] bg-primary100 px-[2rem] py-[3rem] rounded-xl shadow-md duration-500 relative top-0 hover:top-[-0.5rem] hover:shadow-xl',
+        listContainer: 'flex flex-col justify-center place-items-center gap-[1rem] bg-secondary px-[2rem] py-[3rem] rounded-xl shadow-md duration-500 relative top-0 hover:top-[-0.5rem] hover:shadow-xl',
         listIconContainer: '',
         listTitleContainer: '',
         listTitle: 'text-primary900 text-[1.25rem] font-[700]',

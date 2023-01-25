@@ -14,7 +14,8 @@ module.exports = {
       primary600: "#3b9dc2",
       primary700: "#2c7692",
       primary800: "#1e4e61",
-      primary900: "#0f2731"
+      primary900: "#0f2731",
+      secondary: '#EDF5FF',
     }
   },
   plugins: [],

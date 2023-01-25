@@ -18,7 +18,7 @@ function About() {
 
     const styles = {
         wrapper: 'mx-auto mt-[4rem]',
-        container: 'flex flex-col-reverse lg:flex-row justify-center place-items-center gap-[4rem] py-[2rem] px-[1rem] md:px-[4rem] lg:px-[6rem]',
+        container: 'flex flex-col-reverse lg:flex-row justify-center place-items-center gap-[4rem] py-[2rem] px-[1rem] lg:px-[6rem]',
         leftContainer: 'lg:w-[80%]',
         titleContainer: '',
         title: 'text-[2.5rem] font-[700] text-primary900',
@@ -34,60 +34,62 @@ function About() {
     }
 
     return (
-        <div className={styles.wrapper} id='#about'>
-            <div className={styles.container}>
-                <div className={styles.leftContainer}>
-                    <div className={styles.titleContainer}>
-                        <h1 className={styles.title}>Manage & Push Your Business To The Next Level</h1>
-                    </div>
-                    <div className={styles.subtitleContainer}>
-                        <p className={styles.subtitle}>Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
-                    </div>
-                    <div className={styles.listWrapper}>
-                        {
-                            listData.map((item, index) => {
-                                return (
-                                    <div className={styles.listContainer} key={index}>
-                                        <div className={styles.iconContainer}>
-                                            <CheckCircleIcon 
-                                                sx={{
-                                                    fontSize: '3rem',
-                                                    color: '#4ac4f3',
-                                                }}
-                                            />
+        <section id="about">
+            <div className={styles.wrapper}>
+                <div className={styles.container}>
+                    <div className={styles.leftContainer}>
+                        <div className={styles.titleContainer}>
+                            <h1 className={styles.title}>Manage & Push Your Business To The Next Level</h1>
+                        </div>
+                        <div className={styles.subtitleContainer}>
+                            <p className={styles.subtitle}>Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit clita duo justo eirmod magna dolore erat amet</p>
+                        </div>
+                        <div className={styles.listWrapper}>
+                            {
+                                listData.map((item, index) => {
+                                    return (
+                                        <div className={styles.listContainer} key={index}>
+                                            <div className={styles.iconContainer}>
+                                                <CheckCircleIcon
+                                                    sx={{
+                                                        fontSize: '3rem',
+                                                        color: '#4ac4f3',
+                                                    }}
+                                                />
+                                            </div>
+                                            <div className={styles.listContent}>
+                                                <h5 className={styles.listTitle}>{item.title}</h5>
+                                                <p className={styles.listSubtitle}>{item.subtitle}</p>
+                                            </div>
                                         </div>
-                                        <div className={styles.listContent}>
-                                            <h5 className={styles.listTitle}>{item.title}</h5>
-                                            <p className={styles.listSubtitle}>{item.subtitle}</p>
-                                        </div>
-                                    </div>
-                                )
-                            })
-                        }
+                                    )
+                                })
+                            }
+                        </div>
+                        <div className={styles.buttonContainer}>
+                            <Button
+                                variant='contained'
+                                sx={{
+                                    background: '#4ac4f3',
+                                    borderRadius: '100px',
+                                    padding: '1rem 3rem',
+                                    color: '#fff',
+                                    "&:hover": {
+                                        background: '#4ac4f3',
+                                        color: '#fff',
+                                    },
+                                }}
+                            >
+                                Read More
+                            </Button>
+                        </div>
                     </div>
-                    <div className={styles.buttonContainer}>
-                        <Button
-                        variant='contained'
-                        sx={{
-                            background: '#4ac4f3',
-                            borderRadius: '100px',
-                            padding: '1rem 3rem',
-                            color: '#fff',
-                            "&:hover": {
-                                background: '#4ac4f3',
-                                color: '#fff',
-                            },
-                        }}
-                        >
-                            Read More
-                        </Button>
+                    <div className={styles.rightContainer}>
+                        <ImageModal src='/images/about.jpg' alt='about image' />
                     </div>
-                </div>
-                <div className={styles.rightContainer}>
-                    <ImageModal src='/images/about.jpg' alt='about image' />
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
