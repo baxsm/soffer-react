@@ -8,7 +8,7 @@ function Banner() {
 
     const styles = {
         wrapper: 'bg-primary500 mx-auto min-h-[100vh] relative',
-        container: 'flex flex-col justify-center place-items-center py-[3rem] px-[1rem] md:px-[5rem] gap-[4rem] lg:flex-row z-[2] relative',
+        container: 'flex flex-col justify-center place-items-center py-[3rem] px-[1rem] lg:px-[6rem] gap-[4rem] lg:flex-row z-[2] relative',
         leftContainer: '',
         titleContainer: '',
         title: 'text-[2.5rem] text-[#fff] font-[700] opacity-[0.92]',
