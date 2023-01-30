@@ -61,7 +61,7 @@ function Overview() {
     ]
 
     const styles = {
-        wrapper: 'mx-auto bg-secondary my-[4rem]',
+        wrapper: 'mx-auto bg-secondary py-[2rem]',
         container: 'pt-[2rem] lg:[&>*:nth-child(even)]:flex-row py-[4rem]',
         contentContainer: 'flex flex-col-reverse lg:flex-row-reverse justify-center place-items-center gap-[4rem] py-[2rem] px-[1rem] lg:px-[6rem]',
         leftContainer: 'lg:w-[80%]',

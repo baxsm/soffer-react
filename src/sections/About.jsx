@@ -17,7 +17,7 @@ function About() {
     ]
 
     const styles = {
-        wrapper: 'mx-auto mt-[4rem]',
+        wrapper: 'mx-auto py-[4rem]',
         container: 'flex flex-col-reverse lg:flex-row justify-center place-items-center gap-[4rem] py-[2rem] px-[1rem] lg:px-[6rem]',
         leftContainer: 'lg:w-[80%]',
         titleContainer: '',

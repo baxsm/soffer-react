@@ -5,6 +5,7 @@ import About from './sections/About';
 import Functions from './sections/Functions';
 import Overview from './sections/Overview';
 import Features from './sections/Features';
+import Countup from './sections/Countup';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Overview />
       <Features />
+      <Countup />
     </main>
   );
 }

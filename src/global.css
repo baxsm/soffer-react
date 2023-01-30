@@ -15,8 +15,21 @@ body {
   scroll-behavior: smooth;
   background: #fff;
   font-family: 'Heebo', sans-serif;
+  user-select: none;
 }
 
 #header {
   transition: 0.3s;
+}
+
+.featureCard:hover .cardIcon svg {
+  color: #fff !important;
+}
+
+.featureCard:hover .cardTitle h5 {
+  color: #fff !important;
+}
+
+.featureCard:hover .cardSubtitle p {
+  color: #f0f0f0 !important;
 }

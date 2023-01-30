@@ -11,7 +11,7 @@ function Functions() {
             subtitle: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.',
             icon: <AppRegistrationIcon 
                 sx={{
-                    color: '#3b9dc2',
+                    color: '#4ac4f3',
                     fontSize: '3.5rem',
                 }}
             />,
@@ -21,7 +21,7 @@ function Functions() {
             subtitle: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.',
             icon: <LoopIcon 
                 sx={{
-                    color: '#3b9dc2',
+                    color: '#4ac4f3',
                     fontSize: '3.5rem',
                 }}
             />,
@@ -31,7 +31,7 @@ function Functions() {
             subtitle: 'Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.',
             icon: <HighlightAltIcon 
                 sx={{
-                    color: '#3b9dc2',
+                    color: '#4ac4f3',
                     fontSize: '3.5rem',
                 }}
             />,
