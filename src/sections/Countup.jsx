@@ -51,7 +51,7 @@ function Countup() {
     ]
 
     const styles = {
-        wrapper: 'py-[6rem] bg-primary500',
+        wrapper: 'py-[4rem] bg-primary500',
         container: 'px-[1rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 place-items-center gap-[1rem] w-full md:w-[90%] lg:w-[80%]',
         contentContainer: 'flex flex-col justify-center place-items-center',
         iconContainer: '',
