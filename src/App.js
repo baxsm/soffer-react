@@ -7,6 +7,7 @@ import Overview from './sections/Overview';
 import Features from './sections/Features';
 import Countup from './sections/Countup';
 import Steps from './sections/Steps';
+import Pricing from './sections/Pricing';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <Countup />
       <Steps />
+      <Pricing />
     </main>
   );
 }

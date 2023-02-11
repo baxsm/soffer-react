@@ -50,7 +50,7 @@ function Steps() {
 
     const styles = {
         wrapper: 'py-[4rem]',
-        container: 'flex justify-center place-items-center flex-col md:flex-row gap-[4rem] py-[2rem] px-[1rem] lg:px-[8rem]',
+        container: 'flex justify-center place-items-center flex-col lg:flex-row gap-[4rem] py-[2rem] px-[1rem] lg:px-[6rem]',
         leftContainer: 'w-full h-full',
         rightContainer: 'flex flex-col gap-[1rem]',
         titleContainer: '',
@@ -58,7 +58,7 @@ function Steps() {
         subtitleContainer: '',
         subtitle: 'text-[1rem] text-[#757575]',
         listContainer: 'flex flex-col gap-[1.5rem]',
-        listItem: 'flex gap-[1.5rem] relative after:absolute after:content-none after:w-[1px] after:h-full after:top-0 after:left-[20px] after:bg-[#4ac4f3]',
+        listItem: 'flex gap-[1.5rem] relative listItemAfter after:inline-block after:mt-[2rem] after:content-[""] after:absolute after:w-[1px] after:h-full after:top-0 after:left-[20px] after:bg-[#4ac4f3]',
         iconContainer: '',
         listContent: 'flex flex-col gap-[0.5rem]',
         listTitle: 'text-[1.25rem] text-primary900 font-[700]',
@@ -82,7 +82,7 @@ function Steps() {
                         {
                             stepsList.map((item, index) => {
                                 return (
-                                    <div className={styles.listItem}>
+                                    <div className={styles.listItem} key={index}>
                                         <div className={styles.iconContainer}>
                                             {item.icon}
                                         </div>

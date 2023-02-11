@@ -33,3 +33,7 @@ body {
 .featureCard:hover .cardSubtitle p {
   color: #f0f0f0 !important;
 }
+
+.listItemAfter:last-child::after {
+  display: none;
+}
