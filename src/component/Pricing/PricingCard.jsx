@@ -8,7 +8,7 @@ function PricingCard({ data }) {
     const { type, price, features, isDark } = data
 
     const styles = {
-        wrapper: `min-w-[100%] lg:min-w-[350px] shadow-md hover:mt-[-1rem] duration-500 rounded-xl`,
+        wrapper: `min-w-[100%]  shadow-md hover:mt-[-1rem] duration-500 rounded-xl`,
         container: '',
         header: `flex flex-col gap-[1rem] p-6 ${isDark ? 'bg-primary900' : 'bg-primary500'} rounded-t-xl`,
         typeContainer: '',

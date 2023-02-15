@@ -113,11 +113,11 @@ function Pricing() {
 
     const styles = {
         wrapper: 'py-[6rem]',
-        container: 'px-[1rem] flex flex-col gap-[1rem]',
+        container: 'px-[1rem] xl:px-[6rem] flex flex-col gap-[1rem]',
         header: 'flex flex-col gap-[1rem] text-center justify-center place-items-center',
         title: 'text-[2.5rem] text-primary900 font-[700]',
-        subtitle: 'lg:w-[45%] text-[#757575]',
-        cardsContainer: 'grid grid-cols-1 gap-[1rem] lg:gap-0 lg:grid-cols-3 place-items-center xl:px-[6rem] pt-[2rem]',
+        subtitle: 'lg:w-[50%] text-[#757575]',
+        cardsContainer: 'grid grid-cols-1 gap-[2rem] lg:grid-cols-3 place-items-center pt-[2rem]',
     }   
 
     return (
