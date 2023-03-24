@@ -1,3 +1,4 @@
+import 'swiper/css';
 import './global.css';
 import Banner from './sections/Banner';
 import Header from './component/Header'
