@@ -1,4 +1,5 @@
 import 'swiper/css';
+import "swiper/css/navigation";
 import './global.css';
 import Banner from './sections/Banner';
 import Header from './component/Header'
@@ -23,7 +24,7 @@ function App() {
       <Countup />
       <Steps />
       <Pricing />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </main>
   );
 }

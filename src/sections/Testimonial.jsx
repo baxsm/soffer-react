@@ -1,6 +1,7 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import TestimonialCard from '../component/TestimonialCard';
+import { Navigation } from "swiper";
 
 const testimonialData = [
   {
@@ -43,13 +44,15 @@ function Testimonial() {
           </div>
           <div className="mt-8">
             <Swiper
+              navigation={true}
+              modules={[Navigation]}
               slidesPerView={2}
               spaceBetween={50}
             >
               {
                 testimonialData.map((item, index) => {
                   return (
-                    <SwiperSlide key={`${item.name}-${index}`}>
+                    <SwiperSlide key={index}>
                       <TestimonialCard data={item} />
                     </SwiperSlide>
                   )
